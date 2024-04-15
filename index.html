@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css"> 
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="icon" href="./images/favicon.ico">
   </head>
-  <body class="page">
+  <body class="page theme_dark">
     <header class="header decorated-zone">
       <nav class="header__theme-menu">
+        <span class="decorated-zone__element" aria-hidden="true">REC</span>
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
@@ -34,6 +43,9 @@
           </li>
         </ul>
       </nav>
+      <h1 class="header__title">no focus</h1>
+      <p class="header__description">Что делать, когда не можешь делать ничего <br>
+        Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
     </header>
     <script src="./scripts/script.js"></script>
   </body>

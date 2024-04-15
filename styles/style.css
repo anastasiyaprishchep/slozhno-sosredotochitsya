@@ -1,5 +1,81 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+ /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--bg-color, #000000);
+  font-family: var(--font-family, sans-serif);
+  font-size: var(--font-size, 18px);
+  background-image: var(--cover-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+.header {
+  color: var(--accent-color, #ff0070);
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  padding-top: 20px;
+  block-size: 100vh;
+  position: relative;
+}
+
+.header__title {
+  position: relative;
+  justify-self: left;
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 95.7px;
+  color: var(--title-text-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem)
+}
+
+.header__theme-menu {
+  
+}
+
+.header__theme-menu-list {
+  display: grid;
+  justify-content: end;
+  gap: 20px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid currentColor;
+}
+
+.decorated-zone__element {
+  color: var(--accent-color);
+  font-family: "IBM Plex mono";
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: var(--font-weight);
+  line-height: 25px;
+  text-transform: uppercase;
+  top: 21px;
+  right: 30px;
+  position: absolute;
+}
+
+.decorated-zone_element::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
+  border-radius: 50%;
+  display: block;
+}
+
