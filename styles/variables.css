@@ -4,25 +4,25 @@
 */
 
 :root {
-  --font-family: 'IBM Plex mono'; 
+  --font-family: "IBM Plex mono";
   --font-size: 18px;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --accent-color: #ff0070;
   --bg-color: #000000;
-  --main-text-color: #F1B2CE;
+  --main-text-color: #f1b2ce;
   --card-title-color: #000028;
-  --title-text-color: #DB00FF;
+  --title-text-color: #db00ff;
   --cover-image: url(../images/cover-image-dark.png);
   --button-hover: rgba(255, 0, 112, 0.4);
-  --button-focus: #FF0070;
-  --button-active: #FF0070;
-  --link-hover: #F1B2CE;
-  --link-focus: #F1B2CE;
+  --button-focus: #ff0070;
+  --button-active: #ff0070;
+  --link-hover: #f1b2ce;
+  --link-focus: #f1b2ce;
   --content-card-title-color: #ff0070;
   --decorated-element-color: #ff0070;
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --color-title-desktop: #FFC2E6;
-  --accent-color-desktop: #FF0070;
+  --color-title-desktop: #ffc2e6;
+  --accent-color-desktop: #ff0070;
 }
