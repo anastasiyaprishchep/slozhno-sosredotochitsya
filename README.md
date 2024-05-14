@@ -1,1 +1,1 @@
-https://anastasiyaprishchep.github.io/slozhno-sosredotochitsya/
+https://github.com/anastasiyaprishchep/slozhno-sosredotochitsya.git
