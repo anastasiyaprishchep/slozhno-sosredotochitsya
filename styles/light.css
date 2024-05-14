@@ -51,8 +51,11 @@
   --link-focus: #353430;
   --content-card-title-color: #353430;
   --decorated-element-color: #353430;
+  --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --color-title-desktop: #FFC2E6;
+  --accent-color-desktop: #FF0070;
   }
-}
 
 .page.theme_light .decorated-zone__element {
   display: none;
@@ -61,6 +64,4 @@
 .decorated-zone__element {
   display: none;
 }
-
-
-
+}

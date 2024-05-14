@@ -162,7 +162,6 @@
 }
 
 .content__card-title {
-  color: var(--accent-color);
   font-size: var(--font-size);
   color: var(--content-card-title-color);
 }
@@ -348,17 +347,14 @@
   .title__description {
     justify-self: end;
     max-width: 491px;
+    margin-block-start: 18px;
   }
 
-  .header__title{
+  .header__title {
     font-size: var(--font-size-desktop);
     text-shadow: 4px 4px 0px var(--accent-color-desktop);
     color: var(--color-title-desktop);
     left: -20px;
-  }
-
-  .title__description {
-    margin-block-start: 18px;
   }
 
   .decorated-zone::before {
