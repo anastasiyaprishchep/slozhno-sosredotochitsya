@@ -51,3 +51,11 @@
   --content-card-title-color: #ff0070;
   --decorated-element-color: #ff0070;
 }
+
+.page.theme_dark .decorated-zone__element {
+  display: block;
+}
+
+.decorated-zone__element {
+  display: block;
+}

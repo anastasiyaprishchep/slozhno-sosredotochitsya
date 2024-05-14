@@ -54,7 +54,13 @@
   }
 }
 
-.theme_light .decorated-zone__element {
+.page.theme_light .decorated-zone__element {
   display: none;
 }
+
+.decorated-zone__element {
+  display: none;
+}
+
+
 
