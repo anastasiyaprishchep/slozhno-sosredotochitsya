@@ -10,3 +10,44 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+.theme_dark {
+  --font-family: 'IBM Plex mono'; 
+  --font-size: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --accent-color: #ff0070;
+  --bg-color: #000000;
+  --main-text-color: #F1B2CE;
+  --card-title-color: #000028;
+  --title-text-color: #DB00FF;
+  --cover-image: url(../images/cover-image-dark.png);
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-color: #FF0070;
+  --button-focus: #FF0070;
+  --button-active: #FF0070;
+  --link-hover: #F1B2CE;
+  --link-focus: #F1B2CE;
+  --content-card-title-color: #ff0070;
+  --decorated-element-color: #ff0070;
+}
+
+:root {
+  --font-family: 'IBM Plex mono'; 
+  --font-size: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --accent-color: #ff0070;
+  --bg-color: #000000;
+  --main-text-color: #F1B2CE;
+  --card-title-color: #000028;
+  --title-text-color: #DB00FF;
+  --cover-image: url(../images/cover-image-dark.png);
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-focus: #FF0070;
+  --button-active: #FF0070;
+  --link-hover: #F1B2CE;
+  --link-focus: #F1B2CE;
+  --content-card-title-color: #ff0070;
+  --decorated-element-color: #ff0070;
+}

@@ -10,3 +10,51 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+.theme_light {
+  --font-family: 'IBM Plex mono'; 
+  --font-size: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --accent-color: #FF8DCB;
+  --bg-color: #FFF1F7;
+  --main-text-color: #353430;
+  --card-title-color: #353430;
+  --title-text-color: #FFC2E6;
+  --cover-image: url(../images/cover-image-light.png);
+  --button-hover: rgba(50, 49, 45, 0.4);
+  --button-focus: #353430;
+  --button-active: #353430;
+  --link-hover: #353430;
+  --link-focus: #353430;
+  --content-card-title-color: #353430;
+  --decorated-element-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --font-family: 'IBM Plex mono'; 
+  --font-size: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --accent-color: #FF8DCB;
+  --bg-color: #FFF1F7;
+  --main-text-color: #353430;
+  --card-title-color: #353430;
+  --title-text-color: #FFC2E6;
+  --cover-image: url(../images/cover-image-light.png);
+  --button-color: #353430;
+  --button-hover: rgba(50, 49, 45, 0.4);
+  --button-focus: #353430;
+  --button-active: #353430;
+  --link-hover: #353430;
+  --link-focus: #353430;
+  --content-card-title-color: #353430;
+  --decorated-element-color: #353430;
+  }
+}
+
+.theme_light .decorated-zone__element {
+  display: none;
+}
+
