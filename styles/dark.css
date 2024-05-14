@@ -32,6 +32,14 @@
   --accent-color-desktop: #ff0070;
 }
 
+.page.theme_dark .decorated-zone__element {
+  display: block;
+}
+
+.decorated-zone__element {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --font-family: "IBM Plex mono";

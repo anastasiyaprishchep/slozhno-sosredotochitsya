@@ -26,3 +26,19 @@
   --color-title-desktop: #ffc2e6;
   --accent-color-desktop: #ff0070;
 }
+
+.page.theme_dark .decorated-zone__element {
+  display: block;
+}
+
+.decorated-zone__element {
+  display: block;
+}
+
+.page.theme_light .decorated-zone__element {
+  display: none;
+}
+
+.decorated-zone__element {
+  display: none;
+}
