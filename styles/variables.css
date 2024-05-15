@@ -35,10 +35,3 @@
   display: block;
 }
 
-.page.theme_light .decorated-zone__element {
-  display: none;
-}
-
-.decorated-zone__element {
-  display: none;
-}

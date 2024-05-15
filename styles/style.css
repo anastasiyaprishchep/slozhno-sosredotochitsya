@@ -73,7 +73,7 @@
 .header__theme-menu-list {
   display: grid;
   justify-content: end;
-  gap: 10px;
+  gap: 12px;
 }
 
 .header__theme-menu-button {
@@ -93,7 +93,6 @@
 .header__theme-menu-button_active {
   outline: 1px solid var(--button-active);
   pointer-events: none;
-  outline-offset: 1px;
 }
 
 .header__theme-menu-button:hover {
